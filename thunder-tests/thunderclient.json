@@ -1,0 +1,6336 @@
+[
+  {
+    "_id": "aad61cdb-f883-4ce4-a674-6364bf4c1227",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "register a user",
+    "url": "http://64.227.178.177:5000/api/user/register",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-13T12:35:53.010Z",
+    "modified": "2022-12-14T04:20:36.051Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "phone",
+          "value": "1234512345"
+        },
+        {
+          "name": "pushToken",
+          "value": ""
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "3f76996b-afa0-4a79-a76e-42bb774882d8",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "login a user",
+    "url": "http://64.227.178.177:5000/api/user/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-13T12:35:53.011Z",
+    "modified": "2022-12-14T04:18:36.755Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "phone",
+          "value": "1111111110"
+        },
+        {
+          "name": "password",
+          "value": "mypassword1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "5ac363c0-e136-4c65-8a1b-ff728dcc6961",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "update a user by app",
+    "url": "http://178.128.154.246:5000/api/user/update",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-12-13T12:35:53.012Z",
+    "modified": "2022-12-13T12:35:53.012Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "phone",
+          "value": "9163662731"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\followauser.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "df3204b4-4036-4ddc-ad8c-a2f7d0c05c18",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "create a blog",
+    "url": "http://178.128.154.246:5000/api/blog/add",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-12-13T12:35:53.013Z",
+    "modified": "2022-12-13T12:35:53.013Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "fourth blog"
+        },
+        {
+          "name": "content",
+          "value": "<h1>Introduction</h1><p>This is my fourth blog</p>"
+        },
+        {
+          "name": "slug",
+          "value": "fourth-blog"
+        },
+        {
+          "name": "date",
+          "value": "2022-09-30"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\banapi.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "f4ee96d4-b7c8-4698-a4e3-9e957a0244bb",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "update a user by the user",
+    "url": "http://localhost:5000/api/user/updateuser",
+    "method": "PUT",
+    "sortNum": 45000,
+    "created": "2022-12-13T12:35:53.014Z",
+    "modified": "2022-12-13T12:35:53.014Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyNzFiMGFiOTM0NGZjMWExZmRlNmZkIiwiaWF0IjoxNjYzNTA3MjY5fQ.M4JjnzwRkPzAyD43s4DgF8VBRw4aAO6NrxYSU0G1ckQ"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "user11"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\closeexistingaudioorvideocall.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "bf1c9ede-1cbd-40f0-a774-69f0ec3b937f",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "fetch all blogs",
+    "url": "http://178.128.154.246:5000/api/blog/fetchall",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-12-13T12:35:53.015Z",
+    "modified": "2022-12-13T12:35:53.015Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "69df2724-5cf2-495a-9e28-cd78e46a1b2d",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "add a familty",
+    "url": "http://167.99.155.206:5000/api/user/family",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-12-13T12:35:53.016Z",
+    "modified": "2022-12-13T12:35:53.016Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxOGJiMGFkMjI4ZGQxZDVjZTNlYjBlIiwiaWF0IjoxNjYyNTY1MTgxfQ.F86yPpiLPDy5gsu9uRLXztcnTk7Im9O2W1xO4o5WUmI"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "family2"
+        },
+        {
+          "name": "birthDate",
+          "value": "2000-08-21"
+        },
+        {
+          "name": "gender",
+          "value": "male"
+        },
+        {
+          "name": "relation",
+          "value": "father"
+        },
+        {
+          "name": "location",
+          "value": "bamangachi"
+        },
+        {
+          "name": "gotra",
+          "value": "gotra1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c563b2ea-663b-4ce1-b055-7deca355f6dd",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "fetch all family members",
+    "url": "http://localhost:5000/api/user/family",
+    "method": "GET",
+    "sortNum": 70000,
+    "created": "2022-12-13T12:35:53.017Z",
+    "modified": "2022-12-13T12:35:53.017Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYzI0MmI2OGE1OTExMjQxNzY3IiwiaWF0IjoxNjYyODk0NjYxfQ.jEMAoW16LtmBzEudEcwKxuG-Jghcsj-EJikxrRVRqIw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "94e1d6ac-80f0-436d-979d-e9ce2f1bed8c",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "fetch logged in users details",
+    "url": "http://localhost:5000/api/user/fetch",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-12-13T12:35:53.018Z",
+    "modified": "2022-12-13T12:35:53.018Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDAwODAyfQ.yXlbbSd3iuHtHISGSup4iJFLjTzmG6QwoB14_GzSbK8"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5be7f147-7786-4d7d-9c72-96ea6c6944b7",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "69fffb86-1543-4db6-a692-6af648ebe107",
+    "name": "add a welcome",
+    "url": "http://localhost:5000/api/welcome/add",
+    "method": "POST",
+    "sortNum": 90000,
+    "created": "2022-12-13T12:35:53.019Z",
+    "modified": "2022-12-13T12:35:53.019Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "heading",
+          "value": "welcome2"
+        },
+        {
+          "name": "description",
+          "value": "ertyuikhgfdssdfghjkbvcvbnm"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\fechauser.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "671c4891-1d35-413f-a312-236b4ce4b72e",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "69fffb86-1543-4db6-a692-6af648ebe107",
+    "name": "get all welcomes",
+    "url": "http://167.99.13.151:5000/api/welcome/fetchall",
+    "method": "GET",
+    "sortNum": 100000,
+    "created": "2022-12-13T12:35:53.020Z",
+    "modified": "2022-12-13T12:35:53.020Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ff35dda0-2c07-4071-a803-1a7b4920d7ba",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "add a temple",
+    "url": "http://178.128.154.246:5000/api/temple/add",
+    "method": "POST",
+    "sortNum": 110000,
+    "created": "2022-12-13T12:35:53.021Z",
+    "modified": "2022-12-13T12:35:53.021Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "temple8"
+        },
+        {
+          "name": "location",
+          "value": "location8"
+        },
+        {
+          "name": "description",
+          "value": "description8"
+        },
+        {
+          "name": "openingTime",
+          "value": "10:00"
+        },
+        {
+          "name": "closingTime",
+          "value": "16:00"
+        },
+        {
+          "name": "title",
+          "value": "temple8"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (2).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.13 PM (1).jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "6c5b2319-8dfe-45bb-9daa-6cd7125a8df6",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "fetch all blogs by admin",
+    "url": "http://178.128.154.246:5000/api/blog/fetchallblog",
+    "method": "GET",
+    "sortNum": 115000,
+    "created": "2022-12-13T12:35:53.022Z",
+    "modified": "2022-12-13T12:35:53.022Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "cbe7b063-ae71-41a4-be54-6c6d3d31d6b7",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "fetch all templates",
+    "url": "http://64.227.178.177:5000/api/temple/fetchall",
+    "method": "GET",
+    "sortNum": 120000,
+    "created": "2022-12-13T12:35:53.023Z",
+    "modified": "2022-12-13T12:35:53.023Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d0c8ab50-8c2a-4ab6-9ef0-caba1ac2641f",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "fetch temple by id",
+    "url": "http://localhost:5000/api/temple/fetch/632c618b529ce152b6647352",
+    "method": "GET",
+    "sortNum": 140000,
+    "created": "2022-12-13T12:35:53.024Z",
+    "modified": "2022-12-13T12:35:53.024Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "c96b8b51-df5f-4122-afaf-8a7f1602e381",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "69fffb86-1543-4db6-a692-6af648ebe107",
+    "name": "update a welcome",
+    "url": "http://167.99.13.151:5000/api/welcome/update/6353e599232231d79d79991b",
+    "method": "PUT",
+    "sortNum": 150000,
+    "created": "2022-12-13T12:35:53.025Z",
+    "modified": "2022-12-13T12:35:53.025Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image",
+          "value": "c:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.13 PM (1).jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "bc0135e4-cf50-4fc7-9654-93fbf375732c",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "update a temple",
+    "url": "http://localhost:5000/api/temple/update/632c618b529ce152b6647352",
+    "method": "PUT",
+    "sortNum": 160000,
+    "created": "2022-12-13T12:35:53.026Z",
+    "modified": "2022-12-13T12:35:53.026Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description77"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "8ef5dc8a-9d8a-4cb2-aafc-c6ecce47cb2d",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "delete a temple",
+    "url": "http://178.128.154.246:5000/api/temple/delete/632061444c66ea877aa1e2d1",
+    "method": "DELETE",
+    "sortNum": 170000,
+    "created": "2022-12-13T12:35:53.027Z",
+    "modified": "2022-12-13T12:35:53.027Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3e25281f-ee6a-45e8-ab45-ace451cd3222",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "fetch a single blog",
+    "url": "http://localhost:5000/api/blog/fetch/6327237757b15aa5457058c6",
+    "method": "GET",
+    "sortNum": 180000,
+    "created": "2022-12-13T12:35:53.028Z",
+    "modified": "2022-12-13T12:35:53.028Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDE1MDUxfQ.g_Akzfznqld9L0ka-5rUt0ZIv1LP9l68upUW365-gow"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6c0e0123-e095-41ba-b681-89495d393258",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "update a blog",
+    "url": "http://178.128.154.246:5000/api/blog/update/63294d43d68c06d5d88a3563",
+    "method": "PUT",
+    "sortNum": 190000,
+    "created": "2022-12-13T12:35:53.029Z",
+    "modified": "2022-12-13T12:35:53.029Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\banapi.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "572cfa64-bc4d-4091-9aa8-8ae683e9a7e8",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "comment on a blog",
+    "url": "http://178.128.154.246:5000/api/blog/comment",
+    "method": "PUT",
+    "sortNum": 200000,
+    "created": "2022-12-13T12:35:53.030Z",
+    "modified": "2022-12-13T12:35:53.030Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyYWE0NjI2NDFkM2EyODQ1MjYwOTIzIiwiaWF0IjoxNjY0MjgyODc0fQ.-dJpgMLQUw9lRDNLnoyVV-LCkQrAglXnArc_27ES_sw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "631d823014c60e11eda16a4e"
+        },
+        {
+          "name": "comment",
+          "value": "good tutorial 4"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "76cb59b9-36e2-4c81-88b4-3e6c359d605e",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "like a blog",
+    "url": "http://localhost:5000/api/blog/like",
+    "method": "PUT",
+    "sortNum": 210000,
+    "created": "2022-12-13T12:35:53.031Z",
+    "modified": "2022-12-13T12:35:53.031Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxNzE3MWY4MTQ4ZThiNWRiYmQyNDkyIiwiaWF0IjoxNjYyNzA5NDIxfQ.iRVqKluDjbEFZr4zSStgkX3S2zzORwxLvRr9GMV29YE"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "631aeb4d2a29e728d22d601c"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9a85dcf1-2da6-422e-8cb3-aa677fa1d9fd",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "get commenter details of a blog",
+    "url": "http://localhost:5000/api/blog/comment",
+    "method": "POST",
+    "sortNum": 220000,
+    "created": "2022-12-13T12:35:53.032Z",
+    "modified": "2022-12-13T12:35:53.032Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMDU2NzMwfQ.mlfBriEYnk1UCaZFefnvvilBlMIt9tWLJ3BJHiVE-bU"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "6327237757b15aa5457058c6"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "cc4d1982-84b5-441d-b113-c9e17dcd8398",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "get liker details of a blog ",
+    "url": "http://localhost:5000/api/blog/like",
+    "method": "POST",
+    "sortNum": 230000,
+    "created": "2022-12-13T12:35:53.033Z",
+    "modified": "2022-12-13T12:35:53.033Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "631aeb4d2a29e728d22d601c"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9e8db565-c862-4c97-ba4b-8bfccd1d6547",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "get all users",
+    "url": "http://167.99.13.151:5000/api/user/fetchall",
+    "method": "GET",
+    "sortNum": 240000,
+    "created": "2022-12-13T12:35:53.034Z",
+    "modified": "2022-12-13T12:35:53.034Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3e5e19db-0b4b-4124-9233-11c428acb0a0",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "update a family member",
+    "url": "http://localhost:5000/api/user/family",
+    "method": "PUT",
+    "sortNum": 250000,
+    "created": "2022-12-13T12:35:53.035Z",
+    "modified": "2022-12-13T12:35:53.035Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYzI0MmI2OGE1OTExMjQxNzY3IiwiaWF0IjoxNjYyODk0NjYxfQ.jEMAoW16LtmBzEudEcwKxuG-Jghcsj-EJikxrRVRqIw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "familyId",
+          "value": "6317168a8148e8b5dbbd248b"
+        },
+        {
+          "name": "name",
+          "value": "family1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "38295df4-1535-48d4-a85d-94d8adf5d381",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "delete a family member",
+    "url": "http://localhost:5000/api/user/family",
+    "method": "DELETE",
+    "sortNum": 260000,
+    "created": "2022-12-13T12:35:53.036Z",
+    "modified": "2022-12-13T12:35:53.036Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYzI0MmI2OGE1OTExMjQxNzY3IiwiaWF0IjoxNjYyODk0NjYxfQ.jEMAoW16LtmBzEudEcwKxuG-Jghcsj-EJikxrRVRqIw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "familyId",
+          "value": "6317168a8148e8b5dbbd248b"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2a18f23b-c9fa-4354-af1d-65b6c6210531",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "add an event",
+    "url": "http://178.128.154.246:5000/api/temple/addevent",
+    "method": "PUT",
+    "sortNum": 270000,
+    "created": "2022-12-13T12:35:53.037Z",
+    "modified": "2022-12-13T12:35:53.037Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "date",
+          "value": "2022-09-28"
+        },
+        {
+          "name": "title",
+          "value": "holiday"
+        },
+        {
+          "name": "description",
+          "value": "holiday description"
+        },
+        {
+          "name": "openingTime",
+          "value": "10:00"
+        },
+        {
+          "name": "closingTime",
+          "value": "17:00"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\createaudioorvideocall.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "890abdfb-8543-444a-bd43-6fefa30c90a2",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "update an event",
+    "url": "http://localhost:5000/api/temple/updateevent",
+    "method": "PUT",
+    "sortNum": 280000,
+    "created": "2022-12-13T12:35:53.038Z",
+    "modified": "2022-12-13T12:35:53.038Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeEventsId",
+          "value": "632ae16b5b6dd5575f40c199"
+        },
+        {
+          "name": "openingTime",
+          "value": "10:00"
+        },
+        {
+          "name": "date",
+          "value": "2022-09-26"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "8c03794b-6830-4d44-b4b7-c75f20673f47",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "delete an event",
+    "url": "http://localhost:5000/api/temple/deleteevent",
+    "method": "DELETE",
+    "sortNum": 290000,
+    "created": "2022-12-13T12:35:53.039Z",
+    "modified": "2022-12-13T12:35:53.039Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeEventsId",
+          "value": "631dc912425f9b76fab72664"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "7d97263c-2e4c-4f93-997b-1fc86039840a",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "fetch temple events",
+    "url": "http://178.128.154.246:5000/api/temple/fetcheventsdate?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 300000,
+    "created": "2022-12-13T12:35:53.040Z",
+    "modified": "2022-12-13T12:35:53.040Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "c753fa13-ce46-4e71-973e-fe1ee0093ab6",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "delete a comment",
+    "url": "http://localhost:5000/api/blog/comment",
+    "method": "DELETE",
+    "sortNum": 310000,
+    "created": "2022-12-13T12:35:53.041Z",
+    "modified": "2022-12-13T12:35:53.041Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMDU2NzMwfQ.mlfBriEYnk1UCaZFefnvvilBlMIt9tWLJ3BJHiVE-bU"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogCommentsId",
+          "value": "63203d8e30cc9d63532fdcdc"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c9a86ac5-8c3d-4feb-81f7-ae9069b5654e",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d5fcc404-bd51-4f28-99f9-959565f05a4b",
+    "name": "add a support",
+    "url": "http://178.128.154.246:5000/api/support/add",
+    "method": "POST",
+    "sortNum": 330000,
+    "created": "2022-12-13T12:35:53.042Z",
+    "modified": "2022-12-13T12:35:53.042Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyYWE0NjI2NDFkM2EyODQ1MjYwOTIzIiwiaWF0IjoxNjYzNzc3NzU0fQ.SUG3FybAjMKm2lTfXw44Dd1m4LhWMm4pZq7MMjcbOwo"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "query",
+          "value": "query related to support2"
+        },
+        {
+          "name": "title",
+          "value": "support2"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\fetchallcall.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2e42fa84-74dd-4fb6-9770-d2831dddf61d",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d5fcc404-bd51-4f28-99f9-959565f05a4b",
+    "name": "fetchall support",
+    "url": "http://localhost:5000/api/support/fetchall",
+    "method": "GET",
+    "sortNum": 340000,
+    "created": "2022-12-13T12:35:53.043Z",
+    "modified": "2022-12-13T12:35:53.043Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bb5d5044-3a15-48d2-b17b-ecbbb1bb1cf1",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d5fcc404-bd51-4f28-99f9-959565f05a4b",
+    "name": "fetch user specific support",
+    "url": "http://178.128.154.246:5000/api/support/fetch",
+    "method": "GET",
+    "sortNum": 350000,
+    "created": "2022-12-13T12:35:53.044Z",
+    "modified": "2022-12-13T12:35:53.044Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjYzNzQ4NTg0fQ.Ox__1yzDjIKdSCbUvd2DyBrc0l0xpbeLRYkajtdUeig"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b6361396-8e22-43e8-b6e4-e780b77aa831",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d5fcc404-bd51-4f28-99f9-959565f05a4b",
+    "name": "resolve a support",
+    "url": "http://localhost:5000/api/support/resolve",
+    "method": "PUT",
+    "sortNum": 360000,
+    "created": "2022-12-13T12:35:53.045Z",
+    "modified": "2022-12-13T12:35:53.045Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "supportId",
+          "value": "6327252957b15aa5457058f4"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "21fd9bd8-856e-4762-9eee-fddcb20944ac",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "000d5237-3f9c-43e1-ad00-a171b37f3a3b",
+    "name": "add a hotel",
+    "url": "http://178.128.154.246:5000/api/hotel/add",
+    "method": "POST",
+    "sortNum": 370000,
+    "created": "2022-12-13T12:35:53.046Z",
+    "modified": "2022-12-13T12:35:53.046Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "6331d4a9f6f4c95fb8fdc2cb"
+        },
+        {
+          "name": "name",
+          "value": "hotel3"
+        }
+      ],
+      "files": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "4921b54a-39e4-420d-a4f2-692d6d118839",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "000d5237-3f9c-43e1-ad00-a171b37f3a3b",
+    "name": "update a hotel",
+    "url": "http://localhost:5000/api/hotel/update/635244539b7bb45f4cefd005",
+    "method": "PUT",
+    "sortNum": 375000,
+    "created": "2022-12-13T12:35:53.047Z",
+    "modified": "2022-12-13T12:35:53.047Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\fechauser.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "690e0667-ad9f-4e36-88d9-89547f1152ef",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "000d5237-3f9c-43e1-ad00-a171b37f3a3b",
+    "name": "delete a hotel",
+    "url": "http://localhost:5000/api/hotel/delete/635244539b7bb45f4cefd005",
+    "method": "DELETE",
+    "sortNum": 377500,
+    "created": "2022-12-13T12:35:53.048Z",
+    "modified": "2022-12-13T12:35:53.048Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6722e540-cbaa-4c3f-9b3f-34fdcf73430a",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "000d5237-3f9c-43e1-ad00-a171b37f3a3b",
+    "name": "fetch all hotels",
+    "url": "http://64.227.178.177:5000/api/hotel/fetchall",
+    "method": "GET",
+    "sortNum": 380000,
+    "created": "2022-12-13T12:35:53.049Z",
+    "modified": "2022-12-13T12:35:53.049Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5f59d559-9616-4123-97fc-68a4b716b921",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "000d5237-3f9c-43e1-ad00-a171b37f3a3b",
+    "name": "fetch temple specific hotels",
+    "url": "http://localhost:5000/api/hotel/fetch?templeId=631adb4b1d686a0ff090b911",
+    "method": "GET",
+    "sortNum": 390000,
+    "created": "2022-12-13T12:35:53.050Z",
+    "modified": "2022-12-13T12:35:53.050Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "631adb4b1d686a0ff090b911",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "efeed7ed-c586-45e0-ad84-d0b62b2cf012",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "3090a34a-7c0b-4c63-a7eb-e8566e64d9e9",
+    "name": "add a direction",
+    "url": "http://localhost:5000/api/direction/add",
+    "method": "POST",
+    "sortNum": 400000,
+    "created": "2022-12-13T12:35:53.051Z",
+    "modified": "2022-12-13T12:35:53.051Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "632c6168529ce152b664734f"
+        },
+        {
+          "name": "title",
+          "value": "direction1"
+        }
+      ],
+      "files": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "610061a6-b81e-4aec-ab06-ebd1a8edbe15",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "3090a34a-7c0b-4c63-a7eb-e8566e64d9e9",
+    "name": "fetch all directions",
+    "url": "http://167.99.13.151:5000/api/direction/fetchall",
+    "method": "GET",
+    "sortNum": 410000,
+    "created": "2022-12-13T12:35:53.052Z",
+    "modified": "2022-12-13T12:35:53.052Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2e6bf1b7-1d80-4559-a947-763627d39811",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "3090a34a-7c0b-4c63-a7eb-e8566e64d9e9",
+    "name": "update a direction",
+    "url": "http://localhost:5000/api/direction/update/632eb8f1d5e4aac638f2ff55",
+    "method": "PUT",
+    "sortNum": 410000,
+    "created": "2022-12-13T12:35:53.053Z",
+    "modified": "2022-12-13T12:35:53.053Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "direction1 updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "898c6503-bcc1-4266-80be-5530bfba450b",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "3090a34a-7c0b-4c63-a7eb-e8566e64d9e9",
+    "name": "fetch specific directions",
+    "url": "http://178.128.154.246:5000/api/direction/fetch",
+    "method": "GET",
+    "sortNum": 420000,
+    "created": "2022-12-13T12:35:53.054Z",
+    "modified": "2022-12-13T12:35:53.054Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e7de0214-2a05-42dc-bc82-d45fe067c281",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "3090a34a-7c0b-4c63-a7eb-e8566e64d9e9",
+    "name": "delete a direction",
+    "url": "http://localhost:5000/api/direction/delete/6351202247e4c224fb89723d",
+    "method": "DELETE",
+    "sortNum": 420000,
+    "created": "2022-12-13T12:35:53.055Z",
+    "modified": "2022-12-13T12:35:53.055Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8a5f3249-7808-4cb3-9fa4-43fc4714ca60",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "delete a blog",
+    "url": "http://localhost:5000/api/blog/delete/6326cc63d89a7db3fc9282a0",
+    "method": "DELETE",
+    "sortNum": 430000,
+    "created": "2022-12-13T12:35:53.056Z",
+    "modified": "2022-12-13T12:35:53.056Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYyODk1MjcwfQ.Th-HTn6UCEsJLwER470vEjN1ko34npAU1U5VOOtEZao"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a1905c2d-5509-4ff3-b37a-a44df840282f",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "fetch all temple events",
+    "url": "http://localhost:5000/api/temple/fetchallevents",
+    "method": "GET",
+    "sortNum": 440000,
+    "created": "2022-12-13T12:35:53.057Z",
+    "modified": "2022-12-13T12:35:53.057Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "03f1c1cf-db9a-4198-8604-d6afc9e7b990",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9f08375d-81c0-4e89-9723-46c43d488449",
+    "name": "delete comment by admin",
+    "url": "http://localhost:5000/api/blog/commentforadmin",
+    "method": "DELETE",
+    "sortNum": 450000,
+    "created": "2022-12-13T12:35:53.058Z",
+    "modified": "2022-12-13T12:35:53.058Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogCommentsId",
+          "value": "6329f5204f71a23de90dc04f"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "4ee3b6c9-9fb9-4df8-baf8-5f326f29e43f",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d5fcc404-bd51-4f28-99f9-959565f05a4b",
+    "name": "reply to a support by admin",
+    "url": "http://localhost:5000/api/support/replybyadmin",
+    "method": "PUT",
+    "sortNum": 460000,
+    "created": "2022-12-13T12:35:53.059Z",
+    "modified": "2022-12-13T12:35:53.059Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "supportId",
+          "value": "632aca3e8969449fbfc8ba44"
+        },
+        {
+          "name": "message",
+          "value": "support1 resolved"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "24d25aab-37b8-4d13-afa0-c96b2b301903",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d5fcc404-bd51-4f28-99f9-959565f05a4b",
+    "name": "reply to a support by user",
+    "url": "http://localhost:5000/api/support/replybyuser",
+    "method": "PUT",
+    "sortNum": 470000,
+    "created": "2022-12-13T12:35:53.060Z",
+    "modified": "2022-12-13T12:35:53.060Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjYzNzQ4NTg0fQ.Ox__1yzDjIKdSCbUvd2DyBrc0l0xpbeLRYkajtdUeig"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "supportId",
+          "value": "632aca3e8969449fbfc8ba44"
+        },
+        {
+          "name": "message",
+          "value": "it is not resolved"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "ee0738d4-0116-489e-9a92-ddda366a2e5c",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "add a puja",
+    "url": "http://localhost:5000/api/puja/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.061Z",
+    "modified": "2022-12-13T12:35:53.061Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for puja1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c6168529ce152b664734f"
+        },
+        {
+          "name": "title",
+          "value": "puja1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (2).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "906a095f-a521-4747-ae90-eeb8d7fab845",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ac6589f4-3f41-4cb0-a118-6d45e39a667b",
+    "name": "add a blueprint",
+    "url": "http://178.128.154.246:5000/api/blueprint/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.062Z",
+    "modified": "2022-12-13T12:35:53.062Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for blueprint1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "blueprint1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.13 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "dfc284dd-cf8a-419c-a683-68a9ff2bafbc",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "1a32e091-65a5-4bfa-97d3-1b026079b922",
+    "name": "add a nearby",
+    "url": "http://178.128.154.246:5000/api/nearby/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.063Z",
+    "modified": "2022-12-13T12:35:53.063Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for nearby1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "nearby1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "819f6e1f-7577-47c7-aacb-fb8a31dd9f30",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "45305571-9427-4e8d-b5c1-2e2ae6a56bde",
+    "name": "add a daily feed",
+    "url": "http://178.128.154.246:5000/api/dailyfeed/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.064Z",
+    "modified": "2022-12-13T12:35:53.064Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for daily feed1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "daily feed1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "7e686c40-498f-41dc-abd4-5132284feefc",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "2559ef84-adf2-4c61-824a-b6702e1c4a40",
+    "name": "add a store",
+    "url": "http://178.128.154.246:5000/api/store/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.065Z",
+    "modified": "2022-12-13T12:35:53.065Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for store1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "store1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "776dc272-cbf4-40cc-ba03-cf9c40ab7d0f",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "4cd8ae5c-34d1-4594-84dd-4fc6be8d6756",
+    "name": "add a additional info",
+    "url": "http://178.128.154.246:5000/api/additionalinfo/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.066Z",
+    "modified": "2022-12-13T12:35:53.066Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for additionalinfo1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "additionalinfo1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "d25aaf12-c9ec-42e5-bd0a-2455f63d5681",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "539ccd04-8d21-4b92-bd37-9a8812f01218",
+    "name": "add a committee",
+    "url": "http://178.128.154.246:5000/api/committee/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.067Z",
+    "modified": "2022-12-13T12:35:53.067Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for committee1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "committee1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c6dd7628-6060-422a-a70e-4f94c9433152",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ab01825a-04d6-4306-93c6-b48fd299587a",
+    "name": "add a timing",
+    "url": "http://178.128.154.246:5000/api/nearby/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-13T12:35:53.068Z",
+    "modified": "2022-12-13T12:35:53.068Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for nearby1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "nearby1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "282350f1-af08-4fd4-b32a-b7a033b80262",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "fetch all puja",
+    "url": "http://167.99.13.151:5000/api/puja/fetchall",
+    "method": "GET",
+    "sortNum": 485000,
+    "created": "2022-12-13T12:35:53.069Z",
+    "modified": "2022-12-13T12:35:53.069Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4011f2e4-3077-49d0-8543-b4d40ca6a006",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "add an image in puja",
+    "url": "http://localhost:5000/api/puja/image/add",
+    "method": "POST",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.070Z",
+    "modified": "2022-12-13T12:35:53.070Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "pujaId",
+          "value": "632c3e9c6720205fd432a659"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\followauser.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "198af25e-cfa8-433a-a182-7f50d5baea37",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ac6589f4-3f41-4cb0-a118-6d45e39a667b",
+    "name": "fetch all blueprints",
+    "url": "http://167.99.13.151:5000/api/blueprint/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.071Z",
+    "modified": "2022-12-13T12:35:53.071Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bcbd724a-0b26-4849-a6c2-156cda3c1124",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "1a32e091-65a5-4bfa-97d3-1b026079b922",
+    "name": "fetch all nearbys",
+    "url": "http://167.99.13.151:5000/api/nearby/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.072Z",
+    "modified": "2022-12-13T12:35:53.072Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f347a769-8918-4073-a584-c7c4f6fcae83",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "45305571-9427-4e8d-b5c1-2e2ae6a56bde",
+    "name": "fetch all daily feeds",
+    "url": "http://64.227.178.177:5000/api/dailyfeed/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.073Z",
+    "modified": "2022-12-13T12:35:53.073Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7b07a011-b51b-4e2b-8107-f91757c3a023",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "2559ef84-adf2-4c61-824a-b6702e1c4a40",
+    "name": "fetch all stores",
+    "url": "http://64.227.178.177:5000/api/store/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.074Z",
+    "modified": "2022-12-13T12:35:53.074Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "72610f7f-d0b6-43a6-93e3-d90bd7e3ebd6",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "4cd8ae5c-34d1-4594-84dd-4fc6be8d6756",
+    "name": "fetch all additional infos",
+    "url": "http://167.99.13.151:5000/api/additionalinfo/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.075Z",
+    "modified": "2022-12-13T12:35:53.075Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "59d46ad8-007c-4f98-bda5-288332dde12b",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "539ccd04-8d21-4b92-bd37-9a8812f01218",
+    "name": "fetch all committee",
+    "url": "http://167.99.13.151:5000/api/committee/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.076Z",
+    "modified": "2022-12-13T12:35:53.076Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b35a3eb0-e5be-4526-a8b0-d6efb19375ea",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ab01825a-04d6-4306-93c6-b48fd299587a",
+    "name": "fetch all timings",
+    "url": "http://167.99.13.151:5000/api/timing/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-13T12:35:53.077Z",
+    "modified": "2022-12-13T12:35:53.077Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "1dbf14e6-2a5c-40a2-8899-b458049a1f27",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "update an image in puja",
+    "url": "http://localhost:5000/api/puja/image/update",
+    "method": "PUT",
+    "sortNum": 495000,
+    "created": "2022-12-13T12:35:53.078Z",
+    "modified": "2022-12-13T12:35:53.078Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "pujaId",
+          "value": "632c3e9c6720205fd432a659"
+        },
+        {
+          "name": "oldImageLink",
+          "value": "http://localhost:5000/static/images/pujas/1663843996355-763702821-banapi.png"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\phonelogin.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b08773ac-bd3a-49c7-a947-e072d169e272",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "delete an image in puja",
+    "url": "http://localhost:5000/api/puja/image/delete",
+    "method": "DELETE",
+    "sortNum": 497500,
+    "created": "2022-12-13T12:35:53.079Z",
+    "modified": "2022-12-13T12:35:53.079Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "pujaId",
+          "value": "632c3e9c6720205fd432a659"
+        },
+        {
+          "name": "oldImageLink",
+          "value": "http://localhost:5000/static/images/pujas/1663902973426-982146815-phonelogin.png"
+        }
+      ],
+      "files": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "515b87a2-19cf-4ae2-b30d-26645affbd04",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "update a puja",
+    "url": "http://localhost:5000/api/puja/update/632bf82435abaea17aa3da64",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.080Z",
+    "modified": "2022-12-13T12:35:53.080Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for puja1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "56f89572-d4b7-4e0b-b86d-f3403a7735f4",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ac6589f4-3f41-4cb0-a118-6d45e39a667b",
+    "name": "update a blueprint",
+    "url": "http://localhost:5000/api/blueprint/update/632bfc8a926fc2c39dfbdb37",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.081Z",
+    "modified": "2022-12-13T12:35:53.081Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for blueprint1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "e7253e02-5f67-46ed-b9ff-675ff8c271bd",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "1a32e091-65a5-4bfa-97d3-1b026079b922",
+    "name": "update a nearby",
+    "url": "http://localhost:5000/api/nearby/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.082Z",
+    "modified": "2022-12-13T12:35:53.082Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "a3accdfe-ed42-437f-b090-c8f9fcd8042c",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "45305571-9427-4e8d-b5c1-2e2ae6a56bde",
+    "name": "update a daily feed",
+    "url": "http://localhost:5000/api/dailyfeed/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.083Z",
+    "modified": "2022-12-13T12:35:53.083Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "dc9fae25-ace8-48cb-a8a9-b44442a82e56",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "2559ef84-adf2-4c61-824a-b6702e1c4a40",
+    "name": "update a store",
+    "url": "http://localhost:5000/api/store/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.084Z",
+    "modified": "2022-12-13T12:35:53.084Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for store1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "55c33c11-244f-43a0-932c-1ed1c9013a62",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "4cd8ae5c-34d1-4594-84dd-4fc6be8d6756",
+    "name": "update a additional info",
+    "url": "http://localhost:5000/api/additionalinfo/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.085Z",
+    "modified": "2022-12-13T12:35:53.085Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "41e6ae54-a851-4c52-8845-0580cd7cfd5e",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "539ccd04-8d21-4b92-bd37-9a8812f01218",
+    "name": "update a committee",
+    "url": "http://localhost:5000/api/committee/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.086Z",
+    "modified": "2022-12-13T12:35:53.086Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for committee1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "920a003c-2a50-4893-ae9e-fffe9d8891f9",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ab01825a-04d6-4306-93c6-b48fd299587a",
+    "name": "update a timing",
+    "url": "http://localhost:5000/api/nearby/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-13T12:35:53.087Z",
+    "modified": "2022-12-13T12:35:53.087Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "6c280320-a88a-41b7-8786-db968e8d072d",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "delete a puja",
+    "url": "http://178.128.154.246:5000/api/puja/delete/632c64bb44ebc7781ee98268",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.088Z",
+    "modified": "2022-12-13T12:35:53.088Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "4d634f54-3dd0-47f4-bb03-dd9cee255c38",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ac6589f4-3f41-4cb0-a118-6d45e39a667b",
+    "name": "delete a blueprint",
+    "url": "http://178.128.154.246:5000/api/blueprint/delete/632c643a44ebc7781ee9825b",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.089Z",
+    "modified": "2022-12-13T12:35:53.089Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "62ed77a3-dd54-486d-88ba-72f86839621d",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "1a32e091-65a5-4bfa-97d3-1b026079b922",
+    "name": "delete a nearby",
+    "url": "http://178.128.154.246:5000/api/nearby/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.090Z",
+    "modified": "2022-12-13T12:35:53.090Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "054f5490-8bfe-4fd0-a5da-f177ca037f3a",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "45305571-9427-4e8d-b5c1-2e2ae6a56bde",
+    "name": "delete a daily feed",
+    "url": "http://178.128.154.246:5000/api/dailyfeed/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.091Z",
+    "modified": "2022-12-13T12:35:53.091Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "1bc82fde-00e3-4751-8d32-512180cedce5",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "2559ef84-adf2-4c61-824a-b6702e1c4a40",
+    "name": "delete a store",
+    "url": "http://178.128.154.246:5000/api/store/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.092Z",
+    "modified": "2022-12-13T12:35:53.092Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f4e77797-8767-45b5-8111-2de160148b38",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "4cd8ae5c-34d1-4594-84dd-4fc6be8d6756",
+    "name": "delete a additional info",
+    "url": "http://178.128.154.246:5000/api/additionalinfo/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.093Z",
+    "modified": "2022-12-13T12:35:53.093Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "2d1d9fc6-09dd-47f3-bf80-66ea9e897d02",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "539ccd04-8d21-4b92-bd37-9a8812f01218",
+    "name": "delete a committee",
+    "url": "http://178.128.154.246:5000/api/committee/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.094Z",
+    "modified": "2022-12-13T12:35:53.094Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6af2710a-e89a-401d-82b1-745e356e7727",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ab01825a-04d6-4306-93c6-b48fd299587a",
+    "name": "delete a timing",
+    "url": "http://178.128.154.246:5000/api/timing/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-13T12:35:53.095Z",
+    "modified": "2022-12-13T12:35:53.095Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6c1ff3a6-6702-4de4-9c48-6e3b5c6cd801",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "bookmark or unbookmark a blog",
+    "url": "http://localhost:5000/api/user/blog",
+    "method": "PUT",
+    "sortNum": 520000,
+    "created": "2022-12-13T12:35:53.096Z",
+    "modified": "2022-12-13T12:35:53.096Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDAwODAyfQ.yXlbbSd3iuHtHISGSup4iJFLjTzmG6QwoB14_GzSbK8"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "632723b957b15aa5457058ca"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "84bcab70-cc5e-4105-b50b-c367eddd1c19",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "9a14a207-8c1b-4255-b50a-0e048def170c",
+    "name": "fetching all bookmarked blogs",
+    "url": "http://localhost:5000/api/user/blog",
+    "method": "GET",
+    "sortNum": 530000,
+    "created": "2022-12-13T12:35:53.097Z",
+    "modified": "2022-12-13T12:35:53.097Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDAwODAyfQ.yXlbbSd3iuHtHISGSup4iJFLjTzmG6QwoB14_GzSbK8"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ca765d82-93db-40fe-86c3-7733d0c34184",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d5fcc404-bd51-4f28-99f9-959565f05a4b",
+    "name": "fetch user specific support and their reply",
+    "url": "http://178.128.154.246:5000/api/support/fetchsupports?supportId=632aca3e8969449fbfc8ba44",
+    "method": "GET",
+    "sortNum": 540000,
+    "created": "2022-12-13T12:35:53.098Z",
+    "modified": "2022-12-13T12:35:53.098Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDA2MTY0fQ.YLIP83nQfdcAvwxUSZ4eZC0VqBQ5XC_mVQoiuKh4Y58"
+      }
+    ],
+    "params": [
+      {
+        "name": "supportId",
+        "value": "632aca3e8969449fbfc8ba44",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "2268e188-73cc-431a-b4eb-c052f8b06b7a",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "3090a34a-7c0b-4c63-a7eb-e8566e64d9e9",
+    "name": "fetch temple specific direction",
+    "url": "http://178.128.154.246:5000/api/direction/fetch?templeId=632c65b5c4e0a4170d1912b9",
+    "method": "GET",
+    "sortNum": 550000,
+    "created": "2022-12-13T12:35:53.099Z",
+    "modified": "2022-12-13T12:35:53.099Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c65b5c4e0a4170d1912b9",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "c0a6c153-ee2a-45c9-a4ee-ebebf4b3ca4c",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "40940071-2012-45bb-9a35-f724ad2d1731",
+    "name": "fetch temple specific puja",
+    "url": "http://178.128.154.246:5000/api/puja/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 560000,
+    "created": "2022-12-13T12:35:53.100Z",
+    "modified": "2022-12-13T12:35:53.100Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "d2a27fa6-b89e-453f-9392-a76fc46ee9d6",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "f6297c6a-724b-480a-9c96-0aba6d135867",
+    "name": "add an update version",
+    "url": "http://178.128.154.246:5000/api/updateversion/add",
+    "method": "POST",
+    "sortNum": 570000,
+    "created": "2022-12-13T12:35:53.101Z",
+    "modified": "2022-12-13T12:35:53.101Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"publishedDate\":\"2022-09-30\",\n\"version\":\"1.0.1\",\n\"description\":\"wertghjk\"}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "af4a34e7-6e61-40f3-ae47-e99c2255c989",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "f6297c6a-724b-480a-9c96-0aba6d135867",
+    "name": "fetch all update version",
+    "url": "http://178.128.154.246:5000/api/updateversion/fetchall",
+    "method": "GET",
+    "sortNum": 580000,
+    "created": "2022-12-13T12:35:53.102Z",
+    "modified": "2022-12-13T12:35:53.102Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "88376843-06e0-4fe6-b717-a424d99f5a66",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "f6297c6a-724b-480a-9c96-0aba6d135867",
+    "name": "update an update version",
+    "url": "http://178.128.154.246:5000/api/updateversion/update/63529910ed6897736a86adda",
+    "method": "PUT",
+    "sortNum": 590000,
+    "created": "2022-12-13T12:35:53.103Z",
+    "modified": "2022-12-13T12:35:53.103Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"publishedDate\":\"2022-09-28\"}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "acac8dab-7f41-4561-9d25-b026be7f9eae",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "f6297c6a-724b-480a-9c96-0aba6d135867",
+    "name": "delete an update version",
+    "url": "http://localhost:5000/api/updateversion/delete",
+    "method": "DELETE",
+    "sortNum": 600000,
+    "created": "2022-12-13T12:35:53.104Z",
+    "modified": "2022-12-13T12:35:53.104Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "0dc9945a-6bbf-41dc-9aa2-3f8a270108d9",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "1a32e091-65a5-4bfa-97d3-1b026079b922",
+    "name": "fetch temple specific nearby",
+    "url": "http://178.128.154.246:5000/api/nearby/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-13T12:35:53.105Z",
+    "modified": "2022-12-13T12:35:53.105Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "d1d41908-c82b-4163-88ec-f12b62136c3a",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "45305571-9427-4e8d-b5c1-2e2ae6a56bde",
+    "name": "fetch temple specific daily feed",
+    "url": "http://64.227.178.177:5000/api/dailyfeed/fetch?templeId=63664eac3815087d6208e874",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-13T12:35:53.106Z",
+    "modified": "2022-12-13T12:35:53.106Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "63664eac3815087d6208e874",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "51b885b2-b637-4bd4-a0de-43dedb82a95a",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "2559ef84-adf2-4c61-824a-b6702e1c4a40",
+    "name": "fetch temple specific store",
+    "url": "http://64.227.178.177:5000/api/store/fetch?templeId=63664eac3815087d6208e874",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-13T12:35:53.107Z",
+    "modified": "2022-12-13T12:35:53.107Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "63664eac3815087d6208e874",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "f5fa28a7-7306-42e1-b841-d9abe04e7af8",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "4cd8ae5c-34d1-4594-84dd-4fc6be8d6756",
+    "name": "fetch temple specific additional info",
+    "url": "http://178.128.154.246:5000/api/additionalinfo/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-13T12:35:53.109Z",
+    "modified": "2022-12-13T12:35:53.109Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "3e34ab4a-4527-47e1-9296-8b194972e3fd",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "539ccd04-8d21-4b92-bd37-9a8812f01218",
+    "name": "fetch temple specific committee",
+    "url": "http://178.128.154.246:5000/api/committee/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-13T12:35:53.110Z",
+    "modified": "2022-12-13T12:35:53.110Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "0ae5dab3-beec-4733-83e6-fba44cff0daf",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "ab01825a-04d6-4306-93c6-b48fd299587a",
+    "name": "fetch temple specific timing",
+    "url": "http://178.128.154.246:5000/api/timing/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-13T12:35:53.111Z",
+    "modified": "2022-12-13T12:35:53.111Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "550086e0-3724-48c5-969f-31a7b9f84340",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "2559ef84-adf2-4c61-824a-b6702e1c4a40",
+    "name": "fetch details of a single store",
+    "url": "http://64.227.178.177:5000/api/store/fetchone/6353fed7e3e765f51b2cffab",
+    "method": "GET",
+    "sortNum": 620000,
+    "created": "2022-12-13T12:35:53.112Z",
+    "modified": "2022-12-13T12:35:53.112Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5e043e92-9210-423e-be08-de38f41ef46a",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "d534c53a-7858-4c9b-9f2d-364360f9b9a7",
+    "name": "add image to temple",
+    "url": "http://167.99.13.151:5000/api/temple/image/add",
+    "method": "POST",
+    "sortNum": 630000,
+    "created": "2022-12-13T12:35:53.113Z",
+    "modified": "2022-12-13T12:35:53.113Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "6353e9aa232231d79d799a02"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "c:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2f0442ce-4571-4f4f-be2f-76368f227a24",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "36aafd2a-36a8-4999-bb53-6283bdcab731",
+    "name": "send notification to all users",
+    "url": "http://localhost:5000/api/pushtopic/sendall",
+    "method": "POST",
+    "sortNum": 640000,
+    "created": "2022-12-13T12:35:53.114Z",
+    "modified": "2022-12-13T12:35:53.114Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "hello"
+        },
+        {
+          "name": "body",
+          "value": "hello rajkumar"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "583a2388-7550-4dc9-8575-a8533ab814f3",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "36aafd2a-36a8-4999-bb53-6283bdcab731",
+    "name": "subscribe to a topic",
+    "url": "http://localhost:5000/api/pushtopic/subscribe",
+    "method": "POST",
+    "sortNum": 650000,
+    "created": "2022-12-13T12:35:53.115Z",
+    "modified": "2022-12-13T12:35:53.115Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": ""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "topioc",
+          "value": "temple1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c8598e16-01d4-4d56-85a4-78636bd48a56",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "36aafd2a-36a8-4999-bb53-6283bdcab731",
+    "name": "unsubscribe from a topic",
+    "url": "http://localhost:5000/api/pushtopic/unsubscribe",
+    "method": "POST",
+    "sortNum": 660000,
+    "created": "2022-12-13T12:35:53.116Z",
+    "modified": "2022-12-13T12:35:53.116Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": ""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "topioc",
+          "value": "temple1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "695fa0c3-0495-4ac9-b5ec-3bdd1daf1ecc",
+    "colId": "14bf3e41-0552-4882-aac4-d2afb19eb1be",
+    "containerId": "36aafd2a-36a8-4999-bb53-6283bdcab731",
+    "name": "checking if the user subscribed to a topic or not",
+    "url": "http://localhost:5000/api/pushtopic/issubscribed",
+    "method": "POST",
+    "sortNum": 660000,
+    "created": "2022-12-13T12:35:53.117Z",
+    "modified": "2022-12-13T12:35:53.117Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": ""
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "topic",
+          "value": "temple1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "a52864e6-fe1c-4826-a552-e387a76cf06a",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "register a user",
+    "url": "http://64.227.178.177:5000/api/user/register",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-15T04:58:01.773Z",
+    "modified": "2022-12-15T04:58:01.773Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "phone",
+          "value": "8910024177"
+        },
+        {
+          "name": "pushToken",
+          "value": "vjmklj"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "0794289a-f105-45e1-88cd-270fbb5ca001",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "login a user",
+    "url": "http://localhost:5000/api/user/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-12-15T04:58:01.774Z",
+    "modified": "2022-12-15T04:58:01.774Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "phone",
+          "value": "9163662738"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "44306640-963b-4c15-9ccc-d3c456caa00b",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "update a user by app",
+    "url": "http://64.227.178.177:5000/api/user/update",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-12-15T04:58:01.775Z",
+    "modified": "2022-12-15T04:58:01.775Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "phone",
+          "value": "8910024177"
+        },
+        {
+          "name": "isVerified",
+          "value": "true"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "f45249c2-6a6e-4c9b-a343-19f5f96e2a15",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "create a blog",
+    "url": "http://178.128.154.246:5000/api/blog/add",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-12-15T04:58:01.776Z",
+    "modified": "2022-12-15T04:58:01.776Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "fourth blog"
+        },
+        {
+          "name": "content",
+          "value": "<h1>Introduction</h1><p>This is my fourth blog</p>"
+        },
+        {
+          "name": "slug",
+          "value": "fourth-blog"
+        },
+        {
+          "name": "date",
+          "value": "2022-09-30"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\banapi.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "88bd57e0-f109-4547-a886-87116f204392",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "create a post",
+    "url": "http://64.227.178.177:5000/api/post/add",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-12-15T04:58:01.777Z",
+    "modified": "2022-12-15T04:58:01.777Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "isText",
+          "value": "true"
+        },
+        {
+          "name": "text",
+          "value": "hello temple1"
+        },
+        {
+          "name": "templeId",
+          "value": "63664eac3815087d6208e874"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9d50f179-de58-4340-b183-39e3351d7be2",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "update a user by the user",
+    "url": "http://localhost:5000/api/user/updateuser",
+    "method": "PUT",
+    "sortNum": 45000,
+    "created": "2022-12-15T04:58:01.778Z",
+    "modified": "2022-12-15T04:58:01.778Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyNzFiMGFiOTM0NGZjMWExZmRlNmZkIiwiaWF0IjoxNjYzNTA3MjY5fQ.M4JjnzwRkPzAyD43s4DgF8VBRw4aAO6NrxYSU0G1ckQ"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "user11"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\closeexistingaudioorvideocall.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "477bcee2-73d0-4774-9a93-4258a76145c2",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "fetch all blogs",
+    "url": "http://178.128.154.246:5000/api/blog/fetchall",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-12-15T04:58:01.779Z",
+    "modified": "2022-12-15T04:58:01.779Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "35be4f74-2549-4710-ae11-914de736cdb7",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "fetch all posts templewise",
+    "url": "http://localhost:5000/api/post/fetchall?templeId=6366420f708076d09ac5d782",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-12-15T04:58:01.780Z",
+    "modified": "2022-12-15T04:58:01.780Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4OWViYWMwNGIwN2E2YjEzNzg3YzM1IiwiaWF0IjoxNjcwOTMzNjYzfQ.44pE5BWqHz6QRF4cW6jBQMExCNM5L6RwfKmIXUOSVB8"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "6366420f708076d09ac5d782",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "606c1de0-281a-4a46-9331-be0cfb1308f8",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "add a familty",
+    "url": "http://167.99.155.206:5000/api/user/family",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-12-15T04:58:01.781Z",
+    "modified": "2022-12-15T04:58:01.781Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxOGJiMGFkMjI4ZGQxZDVjZTNlYjBlIiwiaWF0IjoxNjYyNTY1MTgxfQ.F86yPpiLPDy5gsu9uRLXztcnTk7Im9O2W1xO4o5WUmI"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "family2"
+        },
+        {
+          "name": "birthDate",
+          "value": "2000-08-21"
+        },
+        {
+          "name": "gender",
+          "value": "male"
+        },
+        {
+          "name": "relation",
+          "value": "father"
+        },
+        {
+          "name": "location",
+          "value": "bamangachi"
+        },
+        {
+          "name": "gotra",
+          "value": "gotra1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "a41df89c-8c46-434b-9009-0bb5f1222dca",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "fetch all family members",
+    "url": "http://localhost:5000/api/user/family",
+    "method": "GET",
+    "sortNum": 70000,
+    "created": "2022-12-15T04:58:01.782Z",
+    "modified": "2022-12-15T04:58:01.782Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYzI0MmI2OGE1OTExMjQxNzY3IiwiaWF0IjoxNjYyODk0NjYxfQ.jEMAoW16LtmBzEudEcwKxuG-Jghcsj-EJikxrRVRqIw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "3f3c558d-393e-4031-984b-01a73e9f901d",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "fetch logged in users details",
+    "url": "http://localhost:5000/api/user/fetch",
+    "method": "GET",
+    "sortNum": 80000,
+    "created": "2022-12-15T04:58:01.783Z",
+    "modified": "2022-12-15T04:58:01.783Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4OWViYWMwNGIwN2E2YjEzNzg3YzM1IiwiaWF0IjoxNjcwOTMzNjYzfQ.44pE5BWqHz6QRF4cW6jBQMExCNM5L6RwfKmIXUOSVB8"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8d476a9c-9710-4d43-83c9-a76067efbeb2",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f856e343-497e-4899-98b4-d290a886b38f",
+    "name": "add a welcome",
+    "url": "http://localhost:5000/api/welcome/add",
+    "method": "POST",
+    "sortNum": 90000,
+    "created": "2022-12-15T04:58:01.784Z",
+    "modified": "2022-12-15T04:58:01.784Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "heading",
+          "value": "welcome2"
+        },
+        {
+          "name": "description",
+          "value": "ertyuikhgfdssdfghjkbvcvbnm"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\fechauser.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "0f400d85-8465-4f9a-b723-fd1707b2e19d",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f856e343-497e-4899-98b4-d290a886b38f",
+    "name": "get all welcomes",
+    "url": "http://167.99.13.151:5000/api/welcome/fetchall",
+    "method": "GET",
+    "sortNum": 100000,
+    "created": "2022-12-15T04:58:01.785Z",
+    "modified": "2022-12-15T04:58:01.785Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "cedb2ded-b0aa-4a33-87a2-6d998f624474",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "add a temple",
+    "url": "http://178.128.154.246:5000/api/temple/add",
+    "method": "POST",
+    "sortNum": 110000,
+    "created": "2022-12-15T04:58:01.786Z",
+    "modified": "2022-12-15T04:58:01.786Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "name",
+          "value": "temple8"
+        },
+        {
+          "name": "location",
+          "value": "location8"
+        },
+        {
+          "name": "description",
+          "value": "description8"
+        },
+        {
+          "name": "openingTime",
+          "value": "10:00"
+        },
+        {
+          "name": "closingTime",
+          "value": "16:00"
+        },
+        {
+          "name": "title",
+          "value": "temple8"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (2).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.13 PM (1).jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "a59ad737-6a82-45b6-ab92-70ef6e3c1410",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "fetch all blogs by admin",
+    "url": "http://178.128.154.246:5000/api/blog/fetchallblog",
+    "method": "GET",
+    "sortNum": 115000,
+    "created": "2022-12-15T04:58:01.787Z",
+    "modified": "2022-12-15T04:58:01.787Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "fe454daa-bcb3-401d-b540-f51964c3ae5a",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "fetch all templates",
+    "url": "http://64.227.178.177:5000/api/temple/fetchall",
+    "method": "GET",
+    "sortNum": 120000,
+    "created": "2022-12-15T04:58:01.788Z",
+    "modified": "2022-12-15T04:58:01.788Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a2039dac-ec9b-4814-91b1-23d000aa6fe4",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "fetch temple by id",
+    "url": "http://localhost:5000/api/temple/fetch/632c618b529ce152b6647352",
+    "method": "GET",
+    "sortNum": 140000,
+    "created": "2022-12-15T04:58:01.789Z",
+    "modified": "2022-12-15T04:58:01.789Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ee319009-e00a-42e5-ad6b-e8c4efe5b4a7",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f856e343-497e-4899-98b4-d290a886b38f",
+    "name": "update a welcome",
+    "url": "http://167.99.13.151:5000/api/welcome/update/6353e599232231d79d79991b",
+    "method": "PUT",
+    "sortNum": 150000,
+    "created": "2022-12-15T04:58:01.790Z",
+    "modified": "2022-12-15T04:58:01.790Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image",
+          "value": "c:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.13 PM (1).jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "63ac059c-41cf-472f-b19e-493ccfa3bdab",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "update a temple",
+    "url": "http://localhost:5000/api/temple/update/632c618b529ce152b6647352",
+    "method": "PUT",
+    "sortNum": 160000,
+    "created": "2022-12-15T04:58:01.791Z",
+    "modified": "2022-12-15T04:58:01.791Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description77"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "dcd20c2a-1367-4495-9678-7beac0ac5879",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "delete a temple",
+    "url": "http://178.128.154.246:5000/api/temple/delete/632061444c66ea877aa1e2d1",
+    "method": "DELETE",
+    "sortNum": 170000,
+    "created": "2022-12-15T04:58:01.792Z",
+    "modified": "2022-12-15T04:58:01.792Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "943d142d-d509-49b5-ba31-4a9d59258c02",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "fetch a single blog",
+    "url": "http://localhost:5000/api/blog/fetch/6327237757b15aa5457058c6",
+    "method": "GET",
+    "sortNum": 180000,
+    "created": "2022-12-15T04:58:01.793Z",
+    "modified": "2022-12-15T04:58:01.793Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDE1MDUxfQ.g_Akzfznqld9L0ka-5rUt0ZIv1LP9l68upUW365-gow"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ef968289-959a-443a-8a59-b3f488edab4a",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "fetch a single post",
+    "url": "http://localhost:5000/api/blog/fetch/6327237757b15aa5457058c6",
+    "method": "GET",
+    "sortNum": 180000,
+    "created": "2022-12-15T04:58:01.794Z",
+    "modified": "2022-12-15T04:58:01.794Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDE1MDUxfQ.g_Akzfznqld9L0ka-5rUt0ZIv1LP9l68upUW365-gow"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b090d287-81d4-49dc-9ba5-5477a25ad247",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "update a blog",
+    "url": "http://178.128.154.246:5000/api/blog/update/63294d43d68c06d5d88a3563",
+    "method": "PUT",
+    "sortNum": 190000,
+    "created": "2022-12-15T04:58:01.795Z",
+    "modified": "2022-12-15T04:58:01.795Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\banapi.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "54c8386b-6674-4756-bb82-f154ebe1c42d",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "comment on a blog",
+    "url": "http://178.128.154.246:5000/api/blog/comment",
+    "method": "PUT",
+    "sortNum": 200000,
+    "created": "2022-12-15T04:58:01.796Z",
+    "modified": "2022-12-15T04:58:01.796Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyYWE0NjI2NDFkM2EyODQ1MjYwOTIzIiwiaWF0IjoxNjY0MjgyODc0fQ.-dJpgMLQUw9lRDNLnoyVV-LCkQrAglXnArc_27ES_sw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "631d823014c60e11eda16a4e"
+        },
+        {
+          "name": "comment",
+          "value": "good tutorial 4"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "55b556ae-345b-4ba6-b566-bb05ed58cbca",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "comment on a post",
+    "url": "http://localhost:5000/api/post/comment",
+    "method": "PUT",
+    "sortNum": 200000,
+    "created": "2022-12-15T04:58:01.797Z",
+    "modified": "2022-12-15T04:58:01.797Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4OWViYWMwNGIwN2E2YjEzNzg3YzM1IiwiaWF0IjoxNjcwOTMzNjYzfQ.44pE5BWqHz6QRF4cW6jBQMExCNM5L6RwfKmIXUOSVB8"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "postId",
+          "value": "63986b538cfb055e0cce921d"
+        },
+        {
+          "name": "comment",
+          "value": "good tutorial 3"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "796894ef-96e2-4160-84e7-5e3492aa2905",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "like a blog",
+    "url": "http://localhost:5000/api/blog/like",
+    "method": "PUT",
+    "sortNum": 210000,
+    "created": "2022-12-15T04:58:01.798Z",
+    "modified": "2022-12-15T04:58:01.798Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxNzE3MWY4MTQ4ZThiNWRiYmQyNDkyIiwiaWF0IjoxNjYyNzA5NDIxfQ.iRVqKluDjbEFZr4zSStgkX3S2zzORwxLvRr9GMV29YE"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "631aeb4d2a29e728d22d601c"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "91d69065-94fc-417a-9f2d-6f083d84b655",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "like a post",
+    "url": "http://localhost:5000/api/post/like",
+    "method": "PUT",
+    "sortNum": 210000,
+    "created": "2022-12-15T04:58:01.799Z",
+    "modified": "2022-12-15T04:58:01.799Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4OWViYWMwNGIwN2E2YjEzNzg3YzM1IiwiaWF0IjoxNjcwOTMzNjYzfQ.44pE5BWqHz6QRF4cW6jBQMExCNM5L6RwfKmIXUOSVB8"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "postId",
+          "value": "63986b538cfb055e0cce921d"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "a51e3d33-4556-4af2-b2b7-1b0f0ead2447",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "get commenter details of a blog",
+    "url": "http://localhost:5000/api/blog/comment",
+    "method": "POST",
+    "sortNum": 220000,
+    "created": "2022-12-15T04:58:01.800Z",
+    "modified": "2022-12-15T04:58:01.800Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMDU2NzMwfQ.mlfBriEYnk1UCaZFefnvvilBlMIt9tWLJ3BJHiVE-bU"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "6327237757b15aa5457058c6"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "948dbb9c-a9da-411a-8b44-f375880e72ba",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "get commenter details of a post",
+    "url": "http://localhost:5000/api/post/comment",
+    "method": "POST",
+    "sortNum": 220000,
+    "created": "2022-12-15T04:58:01.801Z",
+    "modified": "2022-12-15T04:58:01.801Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4OWViYWMwNGIwN2E2YjEzNzg3YzM1IiwiaWF0IjoxNjcwOTMzNjYzfQ.44pE5BWqHz6QRF4cW6jBQMExCNM5L6RwfKmIXUOSVB8"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "postId",
+          "value": "63986b538cfb055e0cce921d"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b9c41632-2160-4d23-97fd-7cd5ed290068",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "get liker details of a blog ",
+    "url": "http://localhost:5000/api/blog/like",
+    "method": "POST",
+    "sortNum": 230000,
+    "created": "2022-12-15T04:58:01.802Z",
+    "modified": "2022-12-15T04:58:01.802Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "631aeb4d2a29e728d22d601c"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "6b97aaeb-2231-44a1-aeeb-03b89ea575ff",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "get liker details of a post",
+    "url": "http://localhost:5000/api/post/like",
+    "method": "POST",
+    "sortNum": 230000,
+    "created": "2022-12-15T04:58:01.803Z",
+    "modified": "2022-12-15T04:58:01.803Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "postId",
+          "value": "63986b538cfb055e0cce921d"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "f6d1edbd-ea53-4c60-95f4-74a89eee6880",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "get all users",
+    "url": "http://localhost:5000/api/user/fetchall",
+    "method": "GET",
+    "sortNum": 240000,
+    "created": "2022-12-15T04:58:01.804Z",
+    "modified": "2022-12-15T04:58:01.804Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ddca9d61-e39f-41f8-8511-6a4f944b24d7",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "update a family member",
+    "url": "http://localhost:5000/api/user/family",
+    "method": "PUT",
+    "sortNum": 250000,
+    "created": "2022-12-15T04:58:01.805Z",
+    "modified": "2022-12-15T04:58:01.805Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYzI0MmI2OGE1OTExMjQxNzY3IiwiaWF0IjoxNjYyODk0NjYxfQ.jEMAoW16LtmBzEudEcwKxuG-Jghcsj-EJikxrRVRqIw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "familyId",
+          "value": "6317168a8148e8b5dbbd248b"
+        },
+        {
+          "name": "name",
+          "value": "family1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "32152868-256e-44d7-aa47-276e9197d251",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "delete a family member",
+    "url": "http://localhost:5000/api/user/family",
+    "method": "DELETE",
+    "sortNum": 260000,
+    "created": "2022-12-15T04:58:01.806Z",
+    "modified": "2022-12-15T04:58:01.806Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYzI0MmI2OGE1OTExMjQxNzY3IiwiaWF0IjoxNjYyODk0NjYxfQ.jEMAoW16LtmBzEudEcwKxuG-Jghcsj-EJikxrRVRqIw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "familyId",
+          "value": "6317168a8148e8b5dbbd248b"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "53729a14-e047-4bc8-9694-d6086680aff8",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "add an event",
+    "url": "http://178.128.154.246:5000/api/temple/addevent",
+    "method": "PUT",
+    "sortNum": 270000,
+    "created": "2022-12-15T04:58:01.807Z",
+    "modified": "2022-12-15T04:58:01.807Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "date",
+          "value": "2022-09-28"
+        },
+        {
+          "name": "title",
+          "value": "holiday"
+        },
+        {
+          "name": "description",
+          "value": "holiday description"
+        },
+        {
+          "name": "openingTime",
+          "value": "10:00"
+        },
+        {
+          "name": "closingTime",
+          "value": "17:00"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\createaudioorvideocall.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2dfcbdab-55a8-45e2-81c5-375af4d409c2",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "get reactor details of a post",
+    "url": "http://localhost:5000/api/post/react",
+    "method": "POST",
+    "sortNum": 270000,
+    "created": "2022-12-15T04:58:01.808Z",
+    "modified": "2022-12-15T04:58:01.808Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "postId",
+          "value": "63986b538cfb055e0cce921d"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9bde3cc8-d7e3-4cc7-bdee-2c0ccc6c45ae",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "update an event",
+    "url": "http://localhost:5000/api/temple/updateevent",
+    "method": "PUT",
+    "sortNum": 280000,
+    "created": "2022-12-15T04:58:01.809Z",
+    "modified": "2022-12-15T04:58:01.809Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeEventsId",
+          "value": "632ae16b5b6dd5575f40c199"
+        },
+        {
+          "name": "openingTime",
+          "value": "10:00"
+        },
+        {
+          "name": "date",
+          "value": "2022-09-26"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9da07525-0665-4184-9a50-58e7262b9d49",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "delete an event",
+    "url": "http://localhost:5000/api/temple/deleteevent",
+    "method": "DELETE",
+    "sortNum": 290000,
+    "created": "2022-12-15T04:58:01.810Z",
+    "modified": "2022-12-15T04:58:01.810Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeEventsId",
+          "value": "631dc912425f9b76fab72664"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "d7e96e40-6611-4f56-b137-4873c8a7c7de",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "fetch temple events",
+    "url": "http://178.128.154.246:5000/api/temple/fetcheventsdate?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 300000,
+    "created": "2022-12-15T04:58:01.811Z",
+    "modified": "2022-12-15T04:58:01.811Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "e21521a6-81bf-4039-bfe2-2ba520270346",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "delete a comment",
+    "url": "http://localhost:5000/api/blog/comment",
+    "method": "DELETE",
+    "sortNum": 310000,
+    "created": "2022-12-15T04:58:01.812Z",
+    "modified": "2022-12-15T04:58:01.812Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMDU2NzMwfQ.mlfBriEYnk1UCaZFefnvvilBlMIt9tWLJ3BJHiVE-bU"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogCommentsId",
+          "value": "63203d8e30cc9d63532fdcdc"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "afdca551-155d-4056-bca8-0e1279d6f72e",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "delete a comment",
+    "url": "http://localhost:5000/api/post/comment",
+    "method": "DELETE",
+    "sortNum": 310000,
+    "created": "2022-12-15T04:58:01.813Z",
+    "modified": "2022-12-15T04:58:01.813Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMDU2NzMwfQ.mlfBriEYnk1UCaZFefnvvilBlMIt9tWLJ3BJHiVE-bU"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogCommentsId",
+          "value": "63203d8e30cc9d63532fdcdc"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "18cec26b-e528-44b9-858c-df4534c0c596",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "12a23271-3af4-4266-b091-a441bac0006f",
+    "name": "add a support",
+    "url": "http://178.128.154.246:5000/api/support/add",
+    "method": "POST",
+    "sortNum": 330000,
+    "created": "2022-12-15T04:58:01.814Z",
+    "modified": "2022-12-15T04:58:01.814Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyYWE0NjI2NDFkM2EyODQ1MjYwOTIzIiwiaWF0IjoxNjYzNzc3NzU0fQ.SUG3FybAjMKm2lTfXw44Dd1m4LhWMm4pZq7MMjcbOwo"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "query",
+          "value": "query related to support2"
+        },
+        {
+          "name": "title",
+          "value": "support2"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\fetchallcall.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "ca24a85d-af20-4be6-8d24-729c41c682f3",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "12a23271-3af4-4266-b091-a441bac0006f",
+    "name": "fetchall support",
+    "url": "http://localhost:5000/api/support/fetchall",
+    "method": "GET",
+    "sortNum": 340000,
+    "created": "2022-12-15T04:58:01.815Z",
+    "modified": "2022-12-15T04:58:01.815Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d66d2ed4-fb88-47cd-a7d1-0f9442b2a0c4",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "12a23271-3af4-4266-b091-a441bac0006f",
+    "name": "fetch user specific support",
+    "url": "http://178.128.154.246:5000/api/support/fetch",
+    "method": "GET",
+    "sortNum": 350000,
+    "created": "2022-12-15T04:58:01.816Z",
+    "modified": "2022-12-15T04:58:01.816Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjYzNzQ4NTg0fQ.Ox__1yzDjIKdSCbUvd2DyBrc0l0xpbeLRYkajtdUeig"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a4488347-98c9-4f7b-b1a5-43448bae7e82",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "12a23271-3af4-4266-b091-a441bac0006f",
+    "name": "resolve a support",
+    "url": "http://localhost:5000/api/support/resolve",
+    "method": "PUT",
+    "sortNum": 360000,
+    "created": "2022-12-15T04:58:01.817Z",
+    "modified": "2022-12-15T04:58:01.817Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "supportId",
+          "value": "6327252957b15aa5457058f4"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2c77429e-157e-4d69-a171-4df9415d3449",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "27c2a2a5-c782-4b19-a5c1-dfddc243db2e",
+    "name": "add a hotel",
+    "url": "http://178.128.154.246:5000/api/hotel/add",
+    "method": "POST",
+    "sortNum": 370000,
+    "created": "2022-12-15T04:58:01.818Z",
+    "modified": "2022-12-15T04:58:01.818Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "6331d4a9f6f4c95fb8fdc2cb"
+        },
+        {
+          "name": "name",
+          "value": "hotel3"
+        }
+      ],
+      "files": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "aa8a260e-219f-4ccd-b223-f46845ea8897",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "27c2a2a5-c782-4b19-a5c1-dfddc243db2e",
+    "name": "update a hotel",
+    "url": "http://localhost:5000/api/hotel/update/635244539b7bb45f4cefd005",
+    "method": "PUT",
+    "sortNum": 375000,
+    "created": "2022-12-15T04:58:01.819Z",
+    "modified": "2022-12-15T04:58:01.819Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\fechauser.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c7b1f3bd-cf19-44ae-b26d-d0f73068ad8f",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "27c2a2a5-c782-4b19-a5c1-dfddc243db2e",
+    "name": "delete a hotel",
+    "url": "http://localhost:5000/api/hotel/delete/635244539b7bb45f4cefd005",
+    "method": "DELETE",
+    "sortNum": 377500,
+    "created": "2022-12-15T04:58:01.820Z",
+    "modified": "2022-12-15T04:58:01.820Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "89e4db76-8d8b-4740-b362-b79a50e7ee9a",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "27c2a2a5-c782-4b19-a5c1-dfddc243db2e",
+    "name": "fetch all hotels",
+    "url": "http://64.227.178.177:5000/api/hotel/fetchall",
+    "method": "GET",
+    "sortNum": 380000,
+    "created": "2022-12-15T04:58:01.821Z",
+    "modified": "2022-12-15T04:58:01.821Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "8895dc3d-419b-4f90-b11e-ee86ff8c1c51",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "27c2a2a5-c782-4b19-a5c1-dfddc243db2e",
+    "name": "fetch temple specific hotels",
+    "url": "http://localhost:5000/api/hotel/fetch?templeId=631adb4b1d686a0ff090b911",
+    "method": "GET",
+    "sortNum": 390000,
+    "created": "2022-12-15T04:58:01.823Z",
+    "modified": "2022-12-15T04:58:01.823Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "631adb4b1d686a0ff090b911",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "1872eece-c8d8-4f8c-9133-50ccc16be80d",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "934b292e-ba02-4a60-ac21-745cce2ca8ca",
+    "name": "add a direction",
+    "url": "http://localhost:5000/api/direction/add",
+    "method": "POST",
+    "sortNum": 400000,
+    "created": "2022-12-15T04:58:01.824Z",
+    "modified": "2022-12-15T04:58:01.824Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "632c6168529ce152b664734f"
+        },
+        {
+          "name": "title",
+          "value": "direction1"
+        }
+      ],
+      "files": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0579b5c3-7e01-477a-b11a-b7b9a3030c74",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "934b292e-ba02-4a60-ac21-745cce2ca8ca",
+    "name": "fetch all directions",
+    "url": "http://167.99.13.151:5000/api/direction/fetchall",
+    "method": "GET",
+    "sortNum": 410000,
+    "created": "2022-12-15T04:58:01.825Z",
+    "modified": "2022-12-15T04:58:01.825Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "9eb72c7d-5151-4a93-a3f8-5dc7bec0cc99",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "934b292e-ba02-4a60-ac21-745cce2ca8ca",
+    "name": "update a direction",
+    "url": "http://localhost:5000/api/direction/update/632eb8f1d5e4aac638f2ff55",
+    "method": "PUT",
+    "sortNum": 410000,
+    "created": "2022-12-15T04:58:01.826Z",
+    "modified": "2022-12-15T04:58:01.826Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "direction1 updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "e1bcdf8c-a51c-4b12-afe2-bd7b95cb8c71",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "934b292e-ba02-4a60-ac21-745cce2ca8ca",
+    "name": "fetch specific directions",
+    "url": "http://178.128.154.246:5000/api/direction/fetch",
+    "method": "GET",
+    "sortNum": 420000,
+    "created": "2022-12-15T04:58:01.827Z",
+    "modified": "2022-12-15T04:58:01.827Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "eec904a5-0259-42ba-99f9-fd241d0a6294",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "934b292e-ba02-4a60-ac21-745cce2ca8ca",
+    "name": "delete a direction",
+    "url": "http://localhost:5000/api/direction/delete/6351202247e4c224fb89723d",
+    "method": "DELETE",
+    "sortNum": 420000,
+    "created": "2022-12-15T04:58:01.828Z",
+    "modified": "2022-12-15T04:58:01.828Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYzMTM5Njk1fQ.XRFe8XQ05USvQNqIjf2e-UnexZZB_Tv0_qpu_pmxiJw"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "eb2a67dc-dbe0-4439-ae2c-5aebf606c2e9",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "delete a blog",
+    "url": "http://localhost:5000/api/blog/delete/6326cc63d89a7db3fc9282a0",
+    "method": "DELETE",
+    "sortNum": 430000,
+    "created": "2022-12-15T04:58:01.829Z",
+    "modified": "2022-12-15T04:58:01.829Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYyODk1MjcwfQ.Th-HTn6UCEsJLwER470vEjN1ko34npAU1U5VOOtEZao"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d004aa3d-5c77-4f81-892c-7424d26ecabc",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "delete a post",
+    "url": "http://localhost:5000/api/post/delete/6326cc63d89a7db3fc9282a0",
+    "method": "DELETE",
+    "sortNum": 430000,
+    "created": "2022-12-15T04:58:01.830Z",
+    "modified": "2022-12-15T04:58:01.830Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMxMDNlYjE0MmI2OGE1OTExMjQxNzY0IiwiaWF0IjoxNjYyODk1MjcwfQ.Th-HTn6UCEsJLwER470vEjN1ko34npAU1U5VOOtEZao"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6d067e53-0edf-45dc-9144-ac2d358cc9fa",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "fetch all temple events",
+    "url": "http://localhost:5000/api/temple/fetchallevents",
+    "method": "GET",
+    "sortNum": 440000,
+    "created": "2022-12-15T04:58:01.831Z",
+    "modified": "2022-12-15T04:58:01.831Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "423c434d-91ee-49df-8ae5-d1542dd846ca",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "b3b729d2-af9e-4b93-983e-4733d26f6d29",
+    "name": "delete comment by admin",
+    "url": "http://localhost:5000/api/blog/commentforadmin",
+    "method": "DELETE",
+    "sortNum": 450000,
+    "created": "2022-12-15T04:58:01.832Z",
+    "modified": "2022-12-15T04:58:01.832Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogCommentsId",
+          "value": "6329f5204f71a23de90dc04f"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "824e570d-a421-4004-ad85-16730a7cb1a8",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "12a23271-3af4-4266-b091-a441bac0006f",
+    "name": "reply to a support by admin",
+    "url": "http://localhost:5000/api/support/replybyadmin",
+    "method": "PUT",
+    "sortNum": 460000,
+    "created": "2022-12-15T04:58:01.833Z",
+    "modified": "2022-12-15T04:58:01.833Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "supportId",
+          "value": "632aca3e8969449fbfc8ba44"
+        },
+        {
+          "name": "message",
+          "value": "support1 resolved"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b417c895-cea9-48ff-91ca-e9142d35a9d9",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "12a23271-3af4-4266-b091-a441bac0006f",
+    "name": "reply to a support by user",
+    "url": "http://localhost:5000/api/support/replybyuser",
+    "method": "PUT",
+    "sortNum": 470000,
+    "created": "2022-12-15T04:58:01.834Z",
+    "modified": "2022-12-15T04:58:01.834Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjYzNzQ4NTg0fQ.Ox__1yzDjIKdSCbUvd2DyBrc0l0xpbeLRYkajtdUeig"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "supportId",
+          "value": "632aca3e8969449fbfc8ba44"
+        },
+        {
+          "name": "message",
+          "value": "it is not resolved"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "aaa30f6c-932d-4ab6-b4e9-3979ddbc1f47",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "add a puja",
+    "url": "http://localhost:5000/api/puja/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.835Z",
+    "modified": "2022-12-15T04:58:01.835Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for puja1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c6168529ce152b664734f"
+        },
+        {
+          "name": "title",
+          "value": "puja1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (2).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "eedae5d0-1195-43a5-a6f8-5feac19afc10",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "77f7ed98-f220-4d91-98f3-fe020e52a957",
+    "name": "add a blueprint",
+    "url": "http://178.128.154.246:5000/api/blueprint/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.836Z",
+    "modified": "2022-12-15T04:58:01.836Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for blueprint1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "blueprint1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.13 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "3345ccf1-d0b7-4aa6-92bf-7c4813eff8b9",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "e064aa11-3325-40b5-8148-439c6860f64a",
+    "name": "add a nearby",
+    "url": "http://178.128.154.246:5000/api/nearby/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.837Z",
+    "modified": "2022-12-15T04:58:01.837Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for nearby1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "nearby1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9534c018-cf05-4a22-afc4-59a749a9dbe6",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "76265b7b-7cae-4030-92bb-b453f1b62607",
+    "name": "add a daily feed",
+    "url": "http://178.128.154.246:5000/api/dailyfeed/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.838Z",
+    "modified": "2022-12-15T04:58:01.838Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for daily feed1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "daily feed1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "ff76f5be-8f7f-4121-a39c-26c5513f2aaa",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "a50413a4-427e-4699-81c4-9aa555bde843",
+    "name": "add a store",
+    "url": "http://178.128.154.246:5000/api/store/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.839Z",
+    "modified": "2022-12-15T04:58:01.839Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for store1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "store1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b6c6c76a-12ae-459f-bd21-89ddef929079",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "90bb0254-f6aa-4405-85d2-39f11a4c364d",
+    "name": "add a additional info",
+    "url": "http://178.128.154.246:5000/api/additionalinfo/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.840Z",
+    "modified": "2022-12-15T04:58:01.840Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for additionalinfo1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "additionalinfo1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "13b7f7f7-92f7-42a0-82e5-f3f635bbe8cf",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "ecf19fe3-62ee-41fd-b88b-52669576afd9",
+    "name": "add a committee",
+    "url": "http://178.128.154.246:5000/api/committee/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.841Z",
+    "modified": "2022-12-15T04:58:01.841Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for committee1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "committee1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "718524e5-5a59-4ccf-9606-6dbcc54cb785",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "57de99a6-a565-48b3-a94f-1d0264f47846",
+    "name": "add a timing",
+    "url": "http://178.128.154.246:5000/api/nearby/add",
+    "method": "POST",
+    "sortNum": 480000,
+    "created": "2022-12-15T04:58:01.842Z",
+    "modified": "2022-12-15T04:58:01.842Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "description for nearby1"
+        },
+        {
+          "name": "templeId",
+          "value": "632c66dec4e0a4170d1912be"
+        },
+        {
+          "name": "title",
+          "value": "nearby1"
+        }
+      ],
+      "files": [
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        },
+        {
+          "name": "images",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM.jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c41fc713-912d-4f6a-9b37-863c0dd0cb92",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "fetch all puja",
+    "url": "http://167.99.13.151:5000/api/puja/fetchall",
+    "method": "GET",
+    "sortNum": 485000,
+    "created": "2022-12-15T04:58:01.843Z",
+    "modified": "2022-12-15T04:58:01.843Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bd3ac4cf-affa-4b3e-897b-68d4fdac6320",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "add an image in puja",
+    "url": "http://localhost:5000/api/puja/image/add",
+    "method": "POST",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.844Z",
+    "modified": "2022-12-15T04:58:01.844Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "pujaId",
+          "value": "632c3e9c6720205fd432a659"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\followauser.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "dd4203ab-4a77-4e5d-b31d-768f22332eed",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "77f7ed98-f220-4d91-98f3-fe020e52a957",
+    "name": "fetch all blueprints",
+    "url": "http://167.99.13.151:5000/api/blueprint/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.845Z",
+    "modified": "2022-12-15T04:58:01.845Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "c7fc0d7f-52a4-433e-b703-790bd7fd9b50",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "e064aa11-3325-40b5-8148-439c6860f64a",
+    "name": "fetch all nearbys",
+    "url": "http://167.99.13.151:5000/api/nearby/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.846Z",
+    "modified": "2022-12-15T04:58:01.846Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b7563e4e-428a-405f-9f7c-edb936898c22",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "76265b7b-7cae-4030-92bb-b453f1b62607",
+    "name": "fetch all daily feeds",
+    "url": "http://64.227.178.177:5000/api/dailyfeed/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.847Z",
+    "modified": "2022-12-15T04:58:01.847Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "41d2bff2-61d4-4868-a5d2-166dfb0ac255",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "a50413a4-427e-4699-81c4-9aa555bde843",
+    "name": "fetch all stores",
+    "url": "http://64.227.178.177:5000/api/store/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.848Z",
+    "modified": "2022-12-15T04:58:01.848Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "fbae9804-2701-4327-a35e-a9a9cf17f9f2",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "90bb0254-f6aa-4405-85d2-39f11a4c364d",
+    "name": "fetch all additional infos",
+    "url": "http://167.99.13.151:5000/api/additionalinfo/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.849Z",
+    "modified": "2022-12-15T04:58:01.849Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "aed45773-20e2-435f-b8b8-9d81d238925b",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "ecf19fe3-62ee-41fd-b88b-52669576afd9",
+    "name": "fetch all committee",
+    "url": "http://167.99.13.151:5000/api/committee/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.850Z",
+    "modified": "2022-12-15T04:58:01.850Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "37d7e56a-5c0d-4eaa-a9d4-a7897633c1a3",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "57de99a6-a565-48b3-a94f-1d0264f47846",
+    "name": "fetch all timings",
+    "url": "http://167.99.13.151:5000/api/timing/fetchall",
+    "method": "GET",
+    "sortNum": 490000,
+    "created": "2022-12-15T04:58:01.851Z",
+    "modified": "2022-12-15T04:58:01.851Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "eeacd8af-7cbb-441f-99d0-7736a4f38b05",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "update an image in puja",
+    "url": "http://localhost:5000/api/puja/image/update",
+    "method": "PUT",
+    "sortNum": 495000,
+    "created": "2022-12-15T04:58:01.852Z",
+    "modified": "2022-12-15T04:58:01.852Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "pujaId",
+          "value": "632c3e9c6720205fd432a659"
+        },
+        {
+          "name": "oldImageLink",
+          "value": "http://localhost:5000/static/images/pujas/1663843996355-763702821-banapi.png"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "C:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\phonelogin.png"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "153e278a-ad78-43c7-b710-9017bd152a3f",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "delete an image in puja",
+    "url": "http://localhost:5000/api/puja/image/delete",
+    "method": "DELETE",
+    "sortNum": 497500,
+    "created": "2022-12-15T04:58:01.853Z",
+    "modified": "2022-12-15T04:58:01.853Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "pujaId",
+          "value": "632c3e9c6720205fd432a659"
+        },
+        {
+          "name": "oldImageLink",
+          "value": "http://localhost:5000/static/images/pujas/1663902973426-982146815-phonelogin.png"
+        }
+      ],
+      "files": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "0624a845-96fa-45a4-9acf-73104e48cd6d",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "update a puja",
+    "url": "http://localhost:5000/api/puja/update/632bf82435abaea17aa3da64",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.854Z",
+    "modified": "2022-12-15T04:58:01.854Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for puja1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "863b17f4-21bf-4482-80e4-7110343b4a89",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "77f7ed98-f220-4d91-98f3-fe020e52a957",
+    "name": "update a blueprint",
+    "url": "http://localhost:5000/api/blueprint/update/632bfc8a926fc2c39dfbdb37",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.855Z",
+    "modified": "2022-12-15T04:58:01.855Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for blueprint1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "2e534f78-a7e3-49bf-b578-630609c1fb27",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "e064aa11-3325-40b5-8148-439c6860f64a",
+    "name": "update a nearby",
+    "url": "http://localhost:5000/api/nearby/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.856Z",
+    "modified": "2022-12-15T04:58:01.856Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "9413320b-8cd4-4b95-b81e-b22186dd2e02",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "76265b7b-7cae-4030-92bb-b453f1b62607",
+    "name": "update a daily feed",
+    "url": "http://localhost:5000/api/dailyfeed/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.857Z",
+    "modified": "2022-12-15T04:58:01.857Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "357e0224-0690-4612-b105-449c83c5a1c3",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "a50413a4-427e-4699-81c4-9aa555bde843",
+    "name": "update a store",
+    "url": "http://localhost:5000/api/store/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.858Z",
+    "modified": "2022-12-15T04:58:01.858Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for store1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b6a0f8fd-3814-41bd-9069-064440d379ed",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "90bb0254-f6aa-4405-85d2-39f11a4c364d",
+    "name": "update a additional info",
+    "url": "http://localhost:5000/api/additionalinfo/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.859Z",
+    "modified": "2022-12-15T04:58:01.859Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "4b264c75-a533-4e03-ac4b-5d9bda814f71",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "ecf19fe3-62ee-41fd-b88b-52669576afd9",
+    "name": "update a committee",
+    "url": "http://localhost:5000/api/committee/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.860Z",
+    "modified": "2022-12-15T04:58:01.860Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for committee1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "153cf07c-4d3d-4140-a91b-58fa3dded6ea",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "57de99a6-a565-48b3-a94f-1d0264f47846",
+    "name": "update a timing",
+    "url": "http://localhost:5000/api/nearby/update/632bfd5d926fc2c39dfbdb40",
+    "method": "PUT",
+    "sortNum": 500000,
+    "created": "2022-12-15T04:58:01.861Z",
+    "modified": "2022-12-15T04:58:01.861Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "description",
+          "value": "Descrption for nearby1 is updated"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "0af4b16c-2980-438b-bf03-59d6e2d0f301",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "delete a puja",
+    "url": "http://178.128.154.246:5000/api/puja/delete/632c64bb44ebc7781ee98268",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.862Z",
+    "modified": "2022-12-15T04:58:01.862Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "00bec3a8-b522-4cf5-924e-8522c0bce61f",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "77f7ed98-f220-4d91-98f3-fe020e52a957",
+    "name": "delete a blueprint",
+    "url": "http://178.128.154.246:5000/api/blueprint/delete/632c643a44ebc7781ee9825b",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.863Z",
+    "modified": "2022-12-15T04:58:01.863Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "35269d2e-4d25-4cc5-9500-e75a4c58f059",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "e064aa11-3325-40b5-8148-439c6860f64a",
+    "name": "delete a nearby",
+    "url": "http://178.128.154.246:5000/api/nearby/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.864Z",
+    "modified": "2022-12-15T04:58:01.864Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "72a74433-fb13-421f-85e3-64ce983aed89",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "76265b7b-7cae-4030-92bb-b453f1b62607",
+    "name": "delete a daily feed",
+    "url": "http://178.128.154.246:5000/api/dailyfeed/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.865Z",
+    "modified": "2022-12-15T04:58:01.865Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "9b520ee6-5235-4c18-b01c-6d47c3452ef0",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "a50413a4-427e-4699-81c4-9aa555bde843",
+    "name": "delete a store",
+    "url": "http://178.128.154.246:5000/api/store/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.866Z",
+    "modified": "2022-12-15T04:58:01.866Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "65c1ec16-4781-4921-887d-b7df08fa0a31",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "90bb0254-f6aa-4405-85d2-39f11a4c364d",
+    "name": "delete a additional info",
+    "url": "http://178.128.154.246:5000/api/additionalinfo/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.867Z",
+    "modified": "2022-12-15T04:58:01.867Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d507ae27-e331-414b-898e-9cd6cf97174e",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "ecf19fe3-62ee-41fd-b88b-52669576afd9",
+    "name": "delete a committee",
+    "url": "http://178.128.154.246:5000/api/committee/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.868Z",
+    "modified": "2022-12-15T04:58:01.868Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5b1668f1-fd50-4408-866b-539f2c87d2f9",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "57de99a6-a565-48b3-a94f-1d0264f47846",
+    "name": "delete a timing",
+    "url": "http://178.128.154.246:5000/api/timing/delete/632ec1302193bc46260c2529",
+    "method": "DELETE",
+    "sortNum": 510000,
+    "created": "2022-12-15T04:58:01.869Z",
+    "modified": "2022-12-15T04:58:01.869Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "c5dbcd5b-bbaa-4732-b9dd-64aeea1b3691",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "bookmark or unbookmark a blog",
+    "url": "http://localhost:5000/api/user/blog",
+    "method": "PUT",
+    "sortNum": 520000,
+    "created": "2022-12-15T04:58:01.870Z",
+    "modified": "2022-12-15T04:58:01.870Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDAwODAyfQ.yXlbbSd3iuHtHISGSup4iJFLjTzmG6QwoB14_GzSbK8"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "blogId",
+          "value": "632723b957b15aa5457058ca"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "8c0b7ce1-7844-4deb-9ab4-5a930d60914d",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "fetching all bookmarked blogs",
+    "url": "http://localhost:5000/api/user/blog",
+    "method": "GET",
+    "sortNum": 530000,
+    "created": "2022-12-15T04:58:01.871Z",
+    "modified": "2022-12-15T04:58:01.871Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDAwODAyfQ.yXlbbSd3iuHtHISGSup4iJFLjTzmG6QwoB14_GzSbK8"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "be74f933-d390-4b7b-afa6-7cd26bfe1552",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "12a23271-3af4-4266-b091-a441bac0006f",
+    "name": "fetch user specific support and their reply",
+    "url": "http://178.128.154.246:5000/api/support/fetchsupports?supportId=632aca3e8969449fbfc8ba44",
+    "method": "GET",
+    "sortNum": 540000,
+    "created": "2022-12-15T04:58:01.872Z",
+    "modified": "2022-12-15T04:58:01.872Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjMyOWI0YTQxMDMwNzI1OWI5YTdjYzFlIiwiaWF0IjoxNjY0MDA2MTY0fQ.YLIP83nQfdcAvwxUSZ4eZC0VqBQ5XC_mVQoiuKh4Y58"
+      }
+    ],
+    "params": [
+      {
+        "name": "supportId",
+        "value": "632aca3e8969449fbfc8ba44",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "f4269be1-edd3-43cc-bf73-fa7e373cca0d",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "934b292e-ba02-4a60-ac21-745cce2ca8ca",
+    "name": "fetch temple specific direction",
+    "url": "http://178.128.154.246:5000/api/direction/fetch?templeId=632c65b5c4e0a4170d1912b9",
+    "method": "GET",
+    "sortNum": 550000,
+    "created": "2022-12-15T04:58:01.873Z",
+    "modified": "2022-12-15T04:58:01.873Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c65b5c4e0a4170d1912b9",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "503c903a-5a70-432a-8865-cca36baed3c9",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "00f908af-1bb3-4754-a618-bf02bec6673d",
+    "name": "fetch temple specific puja",
+    "url": "http://178.128.154.246:5000/api/puja/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 560000,
+    "created": "2022-12-15T04:58:01.874Z",
+    "modified": "2022-12-15T04:58:01.874Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "496d2ba1-1a76-46f1-86dd-b1a2cf62f356",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "509cc287-c4f5-444d-ac83-31a6dd86254c",
+    "name": "add an update version",
+    "url": "http://178.128.154.246:5000/api/updateversion/add",
+    "method": "POST",
+    "sortNum": 570000,
+    "created": "2022-12-15T04:58:01.875Z",
+    "modified": "2022-12-15T04:58:01.875Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"publishedDate\":\"2022-09-30\",\n\"version\":\"1.0.1\",\n\"description\":\"wertghjk\"}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a40d6f73-91dc-4bb0-9641-4701f9d88f8f",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "509cc287-c4f5-444d-ac83-31a6dd86254c",
+    "name": "fetch all update version",
+    "url": "http://178.128.154.246:5000/api/updateversion/fetchall",
+    "method": "GET",
+    "sortNum": 580000,
+    "created": "2022-12-15T04:58:01.876Z",
+    "modified": "2022-12-15T04:58:01.876Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "14380bf6-0a14-4995-979f-ad3d50964037",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "509cc287-c4f5-444d-ac83-31a6dd86254c",
+    "name": "update an update version",
+    "url": "http://178.128.154.246:5000/api/updateversion/update/63529910ed6897736a86adda",
+    "method": "PUT",
+    "sortNum": 590000,
+    "created": "2022-12-15T04:58:01.877Z",
+    "modified": "2022-12-15T04:58:01.877Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"publishedDate\":\"2022-09-28\"}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "65920706-b7d7-4dab-ba11-3014bb83f1ca",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "509cc287-c4f5-444d-ac83-31a6dd86254c",
+    "name": "delete an update version",
+    "url": "http://localhost:5000/api/updateversion/delete",
+    "method": "DELETE",
+    "sortNum": 600000,
+    "created": "2022-12-15T04:58:01.878Z",
+    "modified": "2022-12-15T04:58:01.878Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d4adfbb3-57f3-448a-9c90-c3b1f2cf0459",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "e064aa11-3325-40b5-8148-439c6860f64a",
+    "name": "fetch temple specific nearby",
+    "url": "http://178.128.154.246:5000/api/nearby/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-15T04:58:01.879Z",
+    "modified": "2022-12-15T04:58:01.879Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "e0f98bcd-a883-41db-b12b-ec5a27a02dd5",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "76265b7b-7cae-4030-92bb-b453f1b62607",
+    "name": "fetch temple specific daily feed",
+    "url": "http://64.227.178.177:5000/api/dailyfeed/fetch?templeId=63664eac3815087d6208e874",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-15T04:58:01.880Z",
+    "modified": "2022-12-15T04:58:01.880Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "63664eac3815087d6208e874",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "a95d8c34-a910-408c-a08e-20368878fbee",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "a50413a4-427e-4699-81c4-9aa555bde843",
+    "name": "fetch temple specific store",
+    "url": "http://64.227.178.177:5000/api/store/fetch?templeId=63664eac3815087d6208e874",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-15T04:58:01.881Z",
+    "modified": "2022-12-15T04:58:01.881Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "63664eac3815087d6208e874",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "d086606f-7039-48f7-a0eb-d8ad4931a352",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "90bb0254-f6aa-4405-85d2-39f11a4c364d",
+    "name": "fetch temple specific additional info",
+    "url": "http://178.128.154.246:5000/api/additionalinfo/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-15T04:58:01.882Z",
+    "modified": "2022-12-15T04:58:01.882Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "f8b96006-7c40-4933-b8f0-994c6e8d9670",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "ecf19fe3-62ee-41fd-b88b-52669576afd9",
+    "name": "fetch temple specific committee",
+    "url": "http://178.128.154.246:5000/api/committee/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-15T04:58:01.883Z",
+    "modified": "2022-12-15T04:58:01.883Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "73006b81-cdc9-4bf3-b2c8-6b9716569e51",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "57de99a6-a565-48b3-a94f-1d0264f47846",
+    "name": "fetch temple specific timing",
+    "url": "http://178.128.154.246:5000/api/timing/fetch?templeId=632c66dec4e0a4170d1912be",
+    "method": "GET",
+    "sortNum": 610000,
+    "created": "2022-12-15T04:58:01.884Z",
+    "modified": "2022-12-15T04:58:01.884Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [
+      {
+        "name": "templeId",
+        "value": "632c66dec4e0a4170d1912be",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "f4b3df79-109a-4238-b985-b200f79ae485",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "a50413a4-427e-4699-81c4-9aa555bde843",
+    "name": "fetch details of a single store",
+    "url": "http://64.227.178.177:5000/api/store/fetchone/6353fed7e3e765f51b2cffab",
+    "method": "GET",
+    "sortNum": 620000,
+    "created": "2022-12-15T04:58:01.885Z",
+    "modified": "2022-12-15T04:58:01.885Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "a0544fa3-50e1-4b09-89c0-be4082949478",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "f49fc0e3-cc28-40ed-939f-c8c65f884399",
+    "name": "add image to temple",
+    "url": "http://167.99.13.151:5000/api/temple/image/add",
+    "method": "POST",
+    "sortNum": 630000,
+    "created": "2022-12-15T04:58:01.886Z",
+    "modified": "2022-12-15T04:58:01.886Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "templeId",
+          "value": "6353e9aa232231d79d799a02"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "c:\\Users\\bhatt\\OneDrive\\Desktop\\bsl\\smartlive apis\\WhatsApp Image 2022-09-22 at 6.56.14 PM (1).jpeg"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "3feb8500-600b-4852-b01b-047cf16d20ad",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "6a160854-93de-4f08-9be4-e5b8b537ff40",
+    "name": "send notification to all users",
+    "url": "http://64.227.178.177:5000/api/pushtopic/sendall",
+    "method": "POST",
+    "sortNum": 640000,
+    "created": "2022-12-15T04:58:01.887Z",
+    "modified": "2022-12-15T04:58:01.887Z",
+    "headers": [
+      {
+        "name": "authTemple",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJ0ZW1wbGUiLCJpYXQiOjE2NjExNzE1NTh9.TPSQvXjvlmj1Umh0p-bcGXb3ijlrrPzwFGY2if0lbsM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "title",
+          "value": "hello"
+        },
+        {
+          "name": "body",
+          "value": "hello rajkumar"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "1c68cc11-c34c-4fca-b797-4ef828fa9c77",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "6a160854-93de-4f08-9be4-e5b8b537ff40",
+    "name": "subscribe to a topic",
+    "url": "http://64.227.178.177:5000/api/pushtopic/subscribe",
+    "method": "POST",
+    "sortNum": 650000,
+    "created": "2022-12-15T04:58:01.888Z",
+    "modified": "2022-12-15T04:58:01.888Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4ZDc5YmY5OTc2NTM1ZDZjZmI2NGEyIiwiaWF0IjoxNjcwMjE5NjQwfQ.c-AJkVUezK6NyO26_iMyCjSc2BbcuFrrlHlO2emUNug"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "topic",
+          "value": "temple45677"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "4d48bcc3-d02c-4aba-82b2-73f3d34b1376",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "6a160854-93de-4f08-9be4-e5b8b537ff40",
+    "name": "unsubscribe from a topic",
+    "url": "http://64.227.178.177:5000/api/pushtopic/unsubscribe",
+    "method": "POST",
+    "sortNum": 660000,
+    "created": "2022-12-15T04:58:01.889Z",
+    "modified": "2022-12-15T04:58:01.889Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4YWU2ZmRhMmNhNWM5YjliMjA0NzJkIiwiaWF0IjoxNjcwMDQ4NjA5fQ.-V5rqwv6Sjj5tTHaE91j13dLyHPtP-ldOdszgHOV-HM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "topioc",
+          "value": "temple1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "b689abf8-cf79-48c4-aa05-e5ee83a36e62",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "6a160854-93de-4f08-9be4-e5b8b537ff40",
+    "name": "checking if the user subscribed to a topic or not",
+    "url": "http://64.227.178.177:5000/api/pushtopic/issubscribed",
+    "method": "POST",
+    "sortNum": 660000,
+    "created": "2022-12-15T04:58:01.890Z",
+    "modified": "2022-12-15T04:58:01.890Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4YWU2ZmRhMmNhNWM5YjliMjA0NzJkIiwiaWF0IjoxNjcwMDQ4NjA5fQ.-V5rqwv6Sjj5tTHaE91j13dLyHPtP-ldOdszgHOV-HM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "topic",
+          "value": "temple1"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "c098f390-ab6a-4d3f-a8e1-556bd56d04e7",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "4b808d60-8f29-4eed-92e6-e0afa717acd7",
+    "name": "delete a user",
+    "url": "http://64.227.178.177:5000/api/user/delete",
+    "method": "DELETE",
+    "sortNum": 670000,
+    "created": "2022-12-15T04:58:01.891Z",
+    "modified": "2022-12-15T04:58:01.891Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4YjI3OWQ2YWIxZWE1NThiMGM0YzY2IiwiaWF0IjoxNjcwMDY2MzQyfQ.55ftCQ2MdmMYVWozxKIiPXpKbXMJ93zkVmWVtQBxhVo"
+      }
+    ],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d86946ba-c165-478a-951c-c11fdfe3a28c",
+    "colId": "196a4230-aec2-4009-af39-ad506d856165",
+    "containerId": "d9097194-d2d2-402f-818b-a71d2961d717",
+    "name": "react on a post",
+    "url": "http://localhost:5000/api/post/react",
+    "method": "PUT",
+    "sortNum": 680000,
+    "created": "2022-12-15T04:58:01.892Z",
+    "modified": "2022-12-15T04:58:01.892Z",
+    "headers": [
+      {
+        "name": "authUser",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjM4OWU4MWE0NmQzZmQyNDZhODMzMDFhIiwiaWF0IjoxNjcwOTM2NTAwfQ.M7cfNWWVrYKuEf0wwH_-9oG3Nuvw0aOBoIIvjf1UutM"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "postId",
+          "value": "63986b538cfb055e0cce921d"
+        },
+        {
+          "name": "number",
+          "value": "2"
+        }
+      ]
+    },
+    "tests": []
+  }
+]
